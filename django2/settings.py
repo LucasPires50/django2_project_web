@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django2',
-        'USER': 'user-django2',
-        'PASSWORD': '#s84iRSV',
-        'HOST': 'localhost',
+        'USER': 'user_django2',
+        'PASSWORD': 'uD7Yobu?FP|G~74Y',
+        'HOST': 'database-1.cmxlaapu7sci.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
