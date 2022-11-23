@@ -1,0 +1,10 @@
+*.pyc
+uploads/
+django2/conf.py
+db.sqlite3
+draft.py
+.DS_Store
+
+
+celerybeat-schedule
+celerybeat-schedule.db
