@@ -1,2 +1,2 @@
 django2/conf.py
-.pyc
+*.pyc
