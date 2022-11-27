@@ -14,6 +14,8 @@ import os
 
 from pathlib import Path
 
+from django2 import conf
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -82,11 +84,11 @@ WSGI_APPLICATION = 'django2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django2',
-        'USER': 'user-django2',
-        'PASSWORD': '#s84iRSV',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': conf.DEV_DB_NAME,
+        'USER': conf.DEV_DB_USER,
+        'PASSWORD': conf.DEV_DB_PASSWORD,
+        'HOST': conf.DEV_DB_HOST,
+        'PORT': conf.DEV_DB_PORT,
     }
 }
 
