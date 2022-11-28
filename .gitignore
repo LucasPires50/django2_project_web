@@ -1,2 +1,5 @@
-django2/conf.py
 *.pyc
+django2/conf.py
+db.sqlite3
+draft.py
+.DS_Store
