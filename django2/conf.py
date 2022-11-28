@@ -7,4 +7,4 @@ DEV_DB_PASSWORD = "uD7Yobu?FP|G~74Y"
 DEV_DB_HOST = "database-1.cmxlaapu7sci.us-east-1.rds.amazonaws.com"
 DEV_DB_PORT = "3306"
 
-KEY_GITHUB = "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"
+KEY_GITHUB = "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"
